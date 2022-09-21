@@ -51,4 +51,4 @@ So line comments are recommended to be used to explain things that are neccessar
 // ...
 ```
 
-Notice: The space in `// ` in mandatory!
+Notice: The space in `//␣` in mandatory!
