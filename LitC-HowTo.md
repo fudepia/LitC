@@ -5,10 +5,10 @@ LitC, which stands for Literate C, is a format inspired by Literate Haskell.
 ## Compilation
 
 - `make c       file=source.lit.c` or `$(CC) source.lit.c`: To compile the project directly (since LitC code is basically proper C code)
-- `litc strip   file=source.lit.c`: To generate `source.c` with minimal comments
-- `litc tex     file=source.lit.c texTemplate=template.tex`: To generate upLaTeX                          file
-- `litc pdf     file=source.lit.c texTemplate=template.tex`: To generate documentation only
-- `litc tex-pdf file=source.lit.c texTemplate=template.tex`: To generate upLaTeX                          file and also compile it to PDF.
+- `make strip   file=source.lit.c`: To generate `source.c` with minimal comments
+- `make tex     file=source.lit.c texTemplate=template.tex`: To generate upLaTeX                          file
+- `make pdf     file=source.lit.c texTemplate=template.tex`: To generate documentation only
+- `make tex-pdf file=source.lit.c texTemplate=template.tex`: To generate upLaTeX                          file and also compile it to PDF.
 - `make all     file=source.lit.c texTemplate=template.tex`: To generate all                              file s
 
 TODO: Generate TeX with appendix that contains all extra codes.
